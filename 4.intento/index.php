@@ -29,4 +29,5 @@
    # echo $Keivna->Saludar() ;
    # echo $Keivna->EdadDePersona();
     
-   $Jose = new Persona("Jose" ,20);
+   $Armando = new Persona("Armando" ,20);
+   
