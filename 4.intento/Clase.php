@@ -11,4 +11,4 @@
     echo $Armando->Saludar("Mi nombre es");
     echo $Armando->EdadDePersona();
 
-    echo "besos";
+   
