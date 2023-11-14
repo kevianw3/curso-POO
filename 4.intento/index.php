@@ -12,9 +12,9 @@
   
         }
 
-        public function Saludar(){
+        public function Saludar($texto){
 
-            return "Hola soy $this->nombre \n";
+            return $texto.$this->nombre ."\n";
         
         }
 
@@ -26,8 +26,11 @@
     }
 
     $Keivna = new Persona("kevian" ,20);
-   # echo $Keivna->Saludar() ;
-   # echo $Keivna->EdadDePersona();
+     echo $Keivna->Saludar("Hola soy");
+     echo $Keivna->EdadDePersona();
+
+     echo "<br><br>";
     
-   $Armando = new Persona("Armando" ,20);
-   
+   $Armando = new Persona("Armando" ,19);
+    echo $Armando->Saludar("Mi nombre es");
+    echo $Armando->EdadDePersona();
