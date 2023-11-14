@@ -34,3 +34,5 @@
    $Armando = new Persona("Armando" ,19);
     echo $Armando->Saludar("Mi nombre es");
     echo $Armando->EdadDePersona();
+
+    echo "besos";
